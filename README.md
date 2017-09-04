@@ -6,4 +6,4 @@ Usuario: yazbeth
 
 Correo: yazbethgarcia99@gmail.com
 
-Asifnatura: Computadoras y Programación
+Asignatura: Computadoras y Programación
