@@ -1,6 +1,6 @@
 # Computadoras-y-Programacion-2018
 
-Nomvre: Yazbeth Alexandra Miranda García
+Nombre: Yazbeth Alexandra Miranda García
 
 Usuario: yazbeth
 
