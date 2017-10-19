@@ -1,0 +1,42 @@
+#include <conio.h>
+#include <stdio.h>
+
+int main()
+{
+    char opcion;
+    int n1, n2;
+
+    do
+    {
+        printf( "\n   SUMA Y RESTA   " );
+        printf( "\n\n   1. Sumar." );
+        printf( "\n   2. Restar.");
+        printf( "\n   3. Salir.\n" );
+        do
+        {
+            printf( "\n   Introduzca opci%cn (1-3): ", 162 );
+            fflush( stdin );
+            scanf( "%c", &opcion);
+        } while ( opcion < '1' || opcion > '3' );
+        switch ( opcion )
+        {
+            case '1': printf( "\n   Introduzca primer numero: " );
+                      scanf( "%d", &n1);
+                      printf( "\n   Introduzca segundo numero: " );
+                      scanf( "%d", &n2);
+                      printf( "\n   %d + %d = %d\n", n1, n2, n1 + n2 );
+                      break;
+
+            case '2': printf( "\n   Introduzca primer numero: " );
+                      scanf( "%d", &n1);
+                      printf( "\n   Introduzca segundo numero: " );
+                      scanf( "%d", &n2);
+                      printf( "\n   %d - %d = %d\n", n1, n2, n1 - n2 );
+                      break;
+
+        }
+
+    } while ( opcion != '3' );
+
+    return 0;
+}
